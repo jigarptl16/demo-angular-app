@@ -1,0 +1,40 @@
+.column-custome {
+  float: left;
+  width: 50%;
+  padding: 0px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.banner-img {
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+.services {
+  height: 251px;
+  width: 50%;
+  border: 1px solid #58b99b;
+}
+.service-box {
+  flex-direction: column;
+  cursor: pointer;
+}
+.service-box:hover {
+  background-color: #58b99b;
+  color: white;
+}
+
+@media screen and (max-width: 991px) {
+  .column-custome {
+    width: 100%;
+    padding: 0px;
+  }
+  .banner-img {
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    width: 102%;
+  }
+}
