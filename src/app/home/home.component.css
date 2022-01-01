@@ -26,6 +26,14 @@
   background-color: #58b99b;
   color: white;
 }
+.pricing-header {
+  padding-top: 100px;
+  flex-direction: column;
+}
+.pricing-tagline {
+  padding-top: 20px;
+  font-weight: initial;
+}
 
 @media screen and (max-width: 991px) {
   .column-custome {
